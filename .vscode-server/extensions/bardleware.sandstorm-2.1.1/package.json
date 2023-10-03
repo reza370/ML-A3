@@ -1,0 +1,50 @@
+{
+	"name": "sandstorm",
+	"displayName": "Sandstorm Color Theme",
+	"description": "Dark, Red Based, Color Theme",
+	"version": "2.1.1",
+	"publisher": "bardleware",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/son-of-a-trucker/sandstorm-theme"
+	},
+	"engines": {
+		"vscode": "^1.10.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"night-time",
+		"dark",
+		"red",
+		"epic"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "sandstorm - classic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sandstorm-classic-color-theme.json"
+			},
+			{
+				"label": "sandstorm - darker",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sandstorm-darker-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "8507cf11-4a07-4121-b09e-0146658fe6a2",
+		"publisherId": "ef51fea1-cda2-43ba-8b49-d24707346283",
+		"publisherDisplayName": "Devan Sisson",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": true,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1696340975868,
+		"preRelease": false
+	}
+}

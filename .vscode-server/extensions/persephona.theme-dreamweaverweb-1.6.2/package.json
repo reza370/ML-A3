@@ -1,0 +1,49 @@
+{
+	"name": "theme-dreamweaverweb",
+	"displayName": "Dreamweaver Web Theme",
+	"description": "Dreamweaver theme for VS Code.",
+	"version": "1.6.2",
+	"publisher": "Persephona",
+	"icon": "dreamweaver_web_icon.png",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"extensionDependencies": [
+		"vscode.js-atom-grammar"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dreamweaver Web Theme",
+				"uiTheme": "vs",
+				"path": "./themes/DreamweaverWeb.tmTheme"
+			},
+			{
+				"label": "Dreamweaver Web Theme Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/DreamweaverWebDark.tmTheme"
+			}
+		],
+		"grammars": [
+			{
+				"language": "html",
+				"scopeName": "meta.extratag.html",
+				"path": "./syntaxes/HTML_EXTRA.tmLanguage"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "df5b2450-7f1f-4050-805d-73f4532e0d18",
+		"publisherId": "ef36dc95-a899-4870-a5c5-5e6f58c22f2c",
+		"publisherDisplayName": "Persephona",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": true,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1696340979257,
+		"preRelease": false
+	}
+}

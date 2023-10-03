@@ -1,0 +1,39 @@
+{
+	"name": "platzi-theme-for-vs-code",
+	"displayName": "Platzi Theme | Tema de Platzi",
+	"description": "Un tema creado con amor por el equipo de Platzi para la comunidad 💚",
+	"version": "1.0.1",
+	"publisher": "Codevars",
+	"icon": "images/icon.jpg",
+	"engines": {
+		"vscode": "^1.53.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Platzi Theme Green Mode",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Platzi Theme-color-theme.json"
+			},
+			{
+				"label": "Platzi Theme Classic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Platzi Theme-color-theme-classic.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "d29f09ad-446b-479b-ac89-787128de7f48",
+		"publisherId": "1fe60ac2-b652-4e43-bee1-0ce63ac1b147",
+		"publisherDisplayName": "Codevars",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": true,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1696340978760,
+		"preRelease": false
+	}
+}

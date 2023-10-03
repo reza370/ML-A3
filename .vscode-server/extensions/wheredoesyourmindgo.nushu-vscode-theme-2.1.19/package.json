@@ -1,0 +1,86 @@
+{
+	"name": "nushu-vscode-theme",
+	"displayName": "Nüshu",
+	"description": "A theme that will continue to fade with time",
+	"version": "2.1.19",
+	"scripts": {
+		"build": "node src/index.js && node src/nushu/index.js",
+		"release:major": "vsce publish major && git push",
+		"release:minor": "vsce publish minor && git push",
+		"release:patch": "vsce publish patch && git push"
+	},
+	"icon": "images/icon.png",
+	"publisher": "wheredoesyourmindgo",
+	"galleryBanner": {
+		"color": "#1b1f23",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wheredoesyourmindgo/nushu-vscode-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/wheredoesyourmindgo/nushu-vscode-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"women",
+		"github",
+		"light",
+		"dark",
+		"paper",
+		"parchment",
+		"human",
+		"pen paper coffee",
+		"focus"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nüshu Light",
+				"uiTheme": "vs",
+				"path": "./themes/nushu-light.json"
+			},
+			{
+				"label": "Nüshu Dark",
+				"uiTheme": "vs",
+				"path": "./themes/nushu-dark.json"
+			},
+			{
+				"label": "Nüshu Classic",
+				"uiTheme": "vs",
+				"path": "./themes/nushu-classic.json"
+			}
+		]
+	},
+	"license": "MIT",
+	"__metadata": {
+		"publisherDisplayName": "wheredoesyourmindgo",
+		"id": "bf149a57-63ae-485f-95c9-cf4fd38a8f6f",
+		"publisherId": "0d51b125-839d-4c87-b395-d31cd5774926",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": true,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1696340977231,
+		"preRelease": false
+	},
+	"devDependencies": {
+		"@changesets/changelog-github": "^0.4.1",
+		"@changesets/cli": "^2.17.0",
+		"@primer/primitives": "7.10.0",
+		"chroma-js": "^2.1.2",
+		"color": "^3.1.2",
+		"cp-file": "<10",
+		"nodemon": "^2.0.3",
+		"replace-in-file": "^7.0.1",
+		"replace-json-property": "^1.9.0",
+		"vsce": "^2.15.0"
+	}
+}

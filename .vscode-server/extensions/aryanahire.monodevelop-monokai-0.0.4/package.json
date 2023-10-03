@@ -1,0 +1,46 @@
+{
+	"name": "monodevelop-monokai",
+	"displayName": "Monodevelop Monokai for C#",
+	"description": "It is a theme for people who used to used monodevelop and love it's monokai theme!",
+	"version": "0.0.4",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"publisher": "AryanAhire",
+	"author": {
+		"name": "Aryan Ahire"
+	},
+	"homepage": "https://github.com/def-SpaceWar/monodevelop-monokai",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/def-SpaceWar/monodevelop-monokai"
+	},
+	"bugs": {
+		"url": "https://github.com/def-SpaceWar/monodevelop-monokai/issues"
+	},
+	"icon": "icon.png",
+	"license": "GPLv3",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monodevelop Monokai",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monodevelop Monokai.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "82685d2d-5dce-4e4f-879d-9686da837fa1",
+		"publisherId": "c2c4700f-23ff-4bf7-a1b3-df908346014d",
+		"publisherDisplayName": "Aryan Ahire",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": true,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1696340975684,
+		"preRelease": false
+	}
+}
